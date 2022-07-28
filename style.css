@@ -82,3 +82,12 @@ header {
 .text p {
     padding-top: 1.5rem;
 }
+
+.image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 5rem;
+    top: 2rem;
+}
