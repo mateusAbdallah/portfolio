@@ -91,3 +91,10 @@ header {
     left: 5rem;
     top: 2rem;
 }
+
+.botaoLinkedIn {
+    position: relative;
+    top: 4.5rem;
+    right: 5rem;
+    background-color: orange;
+}
