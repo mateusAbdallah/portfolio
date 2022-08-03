@@ -89,6 +89,7 @@ header {
     align-items: center; 
     gap: 1rem; 
     margin: 1rem 0;
+    padding: 1rem;
 }
 
 .photo {
@@ -109,6 +110,25 @@ header {
     font-size: 20px;
 }
 
+.cards {
+    border: 1px solid orangered;
+    box-shadow: 0 0 0.75rem orange;
+    margin-top: 1.5rem;
+}
+
 .projeto1 {
     width: 300px;
+}
+
+.title-project, .project-explanation {
+    font-size: 1.25rem;
+}
+
+.social-media {
+    list-style: none;
+}
+
+.social-media a {
+    color: black;
+    font-size: 2.5rem;
 }
