@@ -71,16 +71,12 @@ header {
     color: orange;
 }
 
-.subtitle {
+.subtitle, .text p {
     padding-top: 1.5rem;
 }
 
 .text__second {
     border-bottom: 2px solid orange;
-}
-
-.text p {
-    padding-top: 1.5rem;
 }
 
 .image {
@@ -131,4 +127,24 @@ header {
 .social-media a {
     color: black;
     font-size: 2.5rem;
+}
+
+.contato {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.contato button {
+    border-radius: 10px;
+    border: none;
+    height: 2rem;
+    background-color: rgba(0, 0, 255, 0.836);
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.botaoEmail {
+    text-decoration: none;
+    color: orange;
+    font-size: 1.2rem;
 }
