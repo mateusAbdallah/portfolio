@@ -52,7 +52,7 @@ header {
 }
 
 .section {
-    padding: 4rem 0;
+    padding: 2.5rem 0;
 }
 
 #home {
@@ -147,4 +147,23 @@ header {
     text-decoration: none;
     color: orange;
     font-size: 1.2rem;
+}
+
+.container-text {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.footer-social-media a {
+    font-size: 2.5rem;
+    color: black;
 }
