@@ -45,6 +45,17 @@ header {
     position: relative;
 }
 
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: darkred;
+    cursor: pointer;
+}
+
 .menu {
     display: none;
 }
