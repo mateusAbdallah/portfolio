@@ -199,7 +199,12 @@ header {
 }
 
 @media screen and (min-width: 1024px){
+    .close-btn,
+    .nav-toggle {
+        display: none;
+    }
+
     .menu {
-        display: flex;
+        display: flex;        
     }
 }
