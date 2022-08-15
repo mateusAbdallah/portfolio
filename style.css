@@ -56,6 +56,10 @@ header {
     cursor: pointer;
 }
 
+.close-btn:hover {
+    font-size: 2.5rem;
+}
+
 .menu {
     display: none;
 }
