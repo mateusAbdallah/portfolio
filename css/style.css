@@ -12,6 +12,12 @@ header {
     border-bottom: 1px solid rgba(0, 0, 255, 0.548);
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .title h1 {
     font-size: 25px;
     margin: 1rem;
@@ -51,13 +57,12 @@ header {
 }
 
 .nav-toggle {
-    padding: 0 2rem;
     cursor: pointer;
     color: rgba(72, 255, 0, 0.815);
-    font-size: 1.3rem;
+    font-size: 1.45rem;
     background: transparent;
     border: none;
-    height: 10px;
+    height: 25px;
     width: 10px;
 }
 
