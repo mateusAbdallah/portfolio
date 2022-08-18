@@ -24,6 +24,16 @@ header {
     font-family: cursive;
 }
 
+.nav-toggle {
+    cursor: pointer;
+    color: rgba(72, 255, 0, 0.815);
+    font-size: 1.45rem;
+    background: transparent;
+    border: none;
+    height: 25px;
+    width: 10px;
+}
+
 .menu {
     display: none;
 }
@@ -56,15 +66,20 @@ header {
     cursor: pointer;
 }
 
-.nav-toggle {
-    cursor: pointer;
-    color: rgba(72, 255, 0, 0.815);
-    font-size: 1.45rem;
-    background: transparent;
-    border: none;
-    height: 25px;
-    width: 10px;
+.container {
+    padding: 1.25rem;
 }
+
+.presentation p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.presentation span {
+    font-weight: 700;
+}
+
+
 
 
 /* header {
