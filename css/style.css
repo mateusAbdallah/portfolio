@@ -103,7 +103,7 @@ h2 {
     width: 200px;
 }
 
-.botaoLinkedIn {
+button {
     background-color: orange;
     padding: 0.5rem;
     border: 1px solid whitesmoke;
@@ -128,6 +128,10 @@ h2 {
 .project__social-media a {
     color: black;
     font-size: 2.5rem;
+}
+
+.botaoEmail {
+    text-align: center;
 }
 
 
