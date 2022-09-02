@@ -164,4 +164,8 @@ button {
     .close-btn, .nav-toggle {
         display: none;
     }
+
+    .image {
+        display: flex;
+    }
 }
