@@ -161,15 +161,36 @@ button {
         justify-content: center;
     }
 
+    ul li a:hover {
+        border-bottom: 2px solid orange;
+    }
+
     .close-btn, .nav-toggle {
         display: none;
+    }
+
+    .p__about {
+        text-align: center;
     }
 
     .image {
         display: flex;
     }
 
+    .card {
+        width: 32%;
+    }
+
     .cards{
         display: flex;
+        gap: 1.3rem;
+    }
+
+    .p__contact {
+        text-align: center;
+    }
+
+    .contato {
+        text-align: center;
     }
 }
