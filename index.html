@@ -18,12 +18,12 @@
                 <i class="fas fa-bars"></i>
             </button>
         </div>
-        <nav class="menu">
+        <nav id="nav" class="menu">
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home" class="scroll-link">Início</a></li>
+                <li><a href="#about" class="scroll-link">Sobre</a></li>
+                <li><a href="#projects" class="scroll-link">Projetos</a></li>
+                <li><a href="#contact" class="scroll-link">Contato</a></li>
             </ul> 
             <button class="close-btn">
                 <i class="fas fa-times"></i>
@@ -31,13 +31,13 @@
         </nav>              
     </header>
     <main>
-        <section class="container introduction">
+        <section class="container introduction" id="home">
             <div class="presentation">
                 <p>Olá, meu nome é Mateus Abdallah.</p>
                 <p><span>Desenvolvedor Front-End</span></p>
             </div>
         </section>
-        <section class="container about">
+        <section class="container about" id="about">
             <div class="text">
                 <h2>
                     <span>01.</span>
@@ -57,7 +57,7 @@
                 </button>
             </div>
         </section>
-        <section class="container projects">
+        <section class="container projects"  id="projects">
             <h2><span>02.</span>Projetos</h2>
             <div class="cards">
                 <div class="card">
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </section>
-        <section class="container contact">
+        <section class="container contact" id="contact">
             <div class="text">
                 <h2><span>03.</span>Contato</h2>
                 <p class="p__contact">Gostou do site e dos projetos? Clique no botão abaixo para mandar uma mensagem. Vou responder o mais rápido possível.</p>

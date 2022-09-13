@@ -9,3 +9,22 @@ toggleBtn.addEventListener("click", function(){
 closeBtn.addEventListener("click", function(){
     menu.classList.remove("menu-show");
 })
+
+const scrollLinks = document.querySelectorAll('.scroll-link');
+const navBar = document.getElementById(nav);
+
+scrollLinks.forEach(function(link){
+    link.addEventListener('click', function(e){
+        e.preventDefault();
+        //navigate to specific spot
+        const id = e.currentTarget.getAttribute('href').slice(1);
+        const element = document.getElementById(id);
+        
+        let position = element.offsetTop;
+        window.scrollTo({
+            left: 0, 
+            top: position,
+        });
+        
+    })
+})
