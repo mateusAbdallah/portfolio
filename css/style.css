@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-body {
-    font-family: 'Roboto', sans-serif;
+html {
+    
     background: rgba(0, 60, 139, 0.548);
 }
 
-header {
-    width: 100vw;
-    border-bottom: 1px solid rgba(0, 0, 255, 0.548);
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(135, 206, 250, 0.356);
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px black;
 }
 
 .title {
@@ -20,6 +24,7 @@ header {
     font-size: 25px;
     margin: 1rem;
     font-family: cursive;
+    text-shadow: 3px 3px 3px white;
 }
 
 .nav-toggle {
@@ -119,7 +124,7 @@ button {
 }
 
 .project {
-    width: 300px;
+    width: 200px;
 }
 
 .project__title, 
