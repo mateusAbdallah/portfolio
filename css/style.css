@@ -26,50 +26,21 @@ body {
     text-shadow: 3px 3px 3px white;
 }
 
-.nav-toggle {
-    cursor: pointer;
-    color: rgba(72, 255, 0, 0.815);
-    font-size: 1.45rem;
-    background: transparent;
-    border: none;
-    height: 25px;
-    width: 10px;
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.menu {
-    display: none;
+ul > li > a {
+    color: black;
+    font-size: 25px;
 }
 
 ul li a:hover {
-    border-bottom: 2px solid orange;
-}
-
-.menu a {
-    color: black;
-    font-size: 30px;
-}
-
-.menu-show {
-    position: fixed;
-    background-color: rgb(25, 0, 255);
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    display: grid;
-    place-items: center;
-    gap: 3rem;
-}
-
-.close-btn {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    background: transparent;
-    border-color: transparent;
-    color: darkred;
-    cursor: pointer;
+    background-color: teal;
+    color: lightblue;
 }
 
 .container {
@@ -170,17 +141,9 @@ button:hover {
         border-bottom: 3.5px solid orange;
     }
     
-    .menu {
+    ul {
         display: flex;
-        justify-content: center;
-    }
-
-    ul li a:hover {
-        border-bottom: 2px solid orange;
-    }
-
-    .close-btn, .nav-toggle {
-        display: none;
+        flex-direction: row;        
     }
 
     .p__about {
