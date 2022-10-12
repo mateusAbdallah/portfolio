@@ -26,6 +26,10 @@ body {
     text-shadow: 3px 3px 3px white;
 }
 
+nav {
+    background-color: whitesmoke;
+}
+
 ul {
     display: flex;
     flex-direction: column;
