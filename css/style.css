@@ -113,6 +113,10 @@ button:hover {
     height: 100px;
 }
 
+.project__title {
+    font-weight: bold;
+}
+
 .project__title, 
 .project__explanation {
     font-size: 1.25rem;
